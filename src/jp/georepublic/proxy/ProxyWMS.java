@@ -86,7 +86,7 @@ public class ProxyWMS extends HttpServlet {
 
             wr = new OutputStreamWriter(geoConn.getOutputStream(), "UTF-8");
 
-            // Writting the WMS Request Parameters into Geoserver
+            // Writing the WMS Request Parameters into Geoserver
             wr.write( request.getQueryString() );
             wr.flush();
 
