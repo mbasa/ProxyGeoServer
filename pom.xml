@@ -30,6 +30,7 @@
         <version>3.0.0</version>
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
+          <warName>${project.artifactId}</warName>
         </configuration>
       </plugin>
     </plugins>
